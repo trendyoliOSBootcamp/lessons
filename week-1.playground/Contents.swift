@@ -361,9 +361,3 @@ let divide = { (x:Int, y:Int) throws -> Int in
  - Exercism 
  
  */
-
-
-
-
-
-
