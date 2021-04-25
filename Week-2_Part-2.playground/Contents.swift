@@ -222,24 +222,102 @@ arabam.model
 // Protocol Oriented Programing POP, OOP
 //Sözleşme gibidir. Uyulması beklenir
 
-class Game {
+enum Genre {
+    case war
+    case race
+}
+
+protocol Player {
+    var playerName:String { get }
+    var alive:Bool { get set}
+    var health:Int { get set}
+    //func shut()
+}
+
+extension Player {
+    mutating func shut() {
+        if health > 0 {
+            health -= 1
+            if health == 0 {
+                alive = false
+            }
+        } else {
+            alive = false
+        }
+        
+        let healthStatus = alive ? String(repeating: "❤️", count: health) : "💀" //ternary
+        print("\(playerName), healt status: \(healthStatus)")
+    }
+}
+
+class GTA : Player {
+    
+    var playerName: String
+    
+    var alive: Bool = true
+    
+    var health: Int = 3
+    
+    /*func shut() {
+        if health > 0 {
+            health -= 1
+            if health == 0 {
+                alive = false
+            }
+        } else {
+            alive = false
+        }
+        
+        let healthStatus = alive ? String(repeating: "❤️", count: health) : "💀" //ternary
+        print("\(playerName), healt status: \(healthStatus)")
+    }*/
+    
     var name:String
     var platform:String
-    var genre:String
+    var genre:Genre
     
-    init(name:String, platform:String, genre:String) {
+    init(playerName:String, name:String, platform:String, genre:Genre) {
+        self.playerName = playerName
         self.name = name
         self.platform = platform
         self.genre = genre
     }
 }
 
-protocol Oyuncu {
-    var name:String { get }
-    var alive:Bool { get set}
-    var health:Int { get set}
-    func shut()
+/*class SavasOyunu : Player {
+    
+    var playerName: String
+    
+    var alive: Bool
+    
+    var health: Int
+    
+}*/
+
+var gta = GTA(playerName: "Alperen Polat", name: "GTA", platform: "mobil", genre: .war)
+gta.shut()
+gta.shut()
+gta.shut()
+
+//Generics - Protocol - Extension
+protocol LessThan {
+    static func < (lhs: Self, rhs: Self) -> Bool
 }
+
+func compare<T:LessThan> ( x:T , y: T) -> Bool {
+    if (x<y){
+        print("İlk sayı ikinciden Küçüktür")
+       return x < y
+    }
+    print("İlk sayı ikinciden Büyüktür")
+    return y < x
+}
+
+extension Int:LessThan{}
+extension Double:LessThan{}
+
+compare(x: 12, y: 30)
+compare(x: 12.6, y: 5.4)
 
 //Protocol - Generic birleşimi örnek
 
