@@ -8,5 +8,6 @@
 import UIKit
 
 protocol MovieCell: UICollectionViewCell {
-    func showMovie(movie:Movie?)
+    static var reuseIdentifier: String { get }
+    func configure(movie:Movie?)
 }

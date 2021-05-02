@@ -20,6 +20,8 @@
 		719D0E10263D7BE700FF321E /* HighLightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719D0E0F263D7BE700FF321E /* HighLightCell.swift */; };
 		719D0E13263D7C7B00FF321E /* PreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719D0E12263D7C7B00FF321E /* PreviewCell.swift */; };
 		719D0E16263D7DE900FF321E /* RecommendationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719D0E15263D7DE900FF321E /* RecommendationCell.swift */; };
+		71C15C4D263E8E4C00EEE93D /* netflix.json in Resources */ = {isa = PBXBuildFile; fileRef = 71C15C4C263E8E4C00EEE93D /* netflix.json */; };
+		71C15C50263E8F4900EEE93D /* BundleDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C15C4F263E8F4900EEE93D /* BundleDecodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		719D0E0F263D7BE700FF321E /* HighLightCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighLightCell.swift; sourceTree = "<group>"; };
 		719D0E12263D7C7B00FF321E /* PreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCell.swift; sourceTree = "<group>"; };
 		719D0E15263D7DE900FF321E /* RecommendationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationCell.swift; sourceTree = "<group>"; };
+		71C15C4C263E8E4C00EEE93D /* netflix.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = netflix.json; sourceTree = "<group>"; };
+		71C15C4F263E8F4900EEE93D /* BundleDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleDecodable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				719D0E00263D6A0300FF321E /* MovieManager.swift */,
+				71C15C4C263E8E4C00EEE93D /* netflix.json */,
 			);
 			path = DataManager;
 			sourceTree = "<group>";
@@ -116,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				719D0E0B263D77CD00FF321E /* UIImageViewExtension.swift */,
+				71C15C4F263E8F4900EEE93D /* BundleDecodable.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -179,6 +185,7 @@
 			files = (
 				719D0DF3263D694D00FF321E /* LaunchScreen.storyboard in Resources */,
 				719D0DF0263D694D00FF321E /* Assets.xcassets in Resources */,
+				71C15C4D263E8E4C00EEE93D /* netflix.json in Resources */,
 				719D0DEE263D694A00FF321E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,6 +205,7 @@
 				719D0E01263D6A0300FF321E /* MovieManager.swift in Sources */,
 				719D0DFD263D69C600FF321E /* Movie.swift in Sources */,
 				719D0E10263D7BE700FF321E /* HighLightCell.swift in Sources */,
+				71C15C50263E8F4900EEE93D /* BundleDecodable.swift in Sources */,
 				719D0E16263D7DE900FF321E /* RecommendationCell.swift in Sources */,
 				719D0DE9263D694A00FF321E /* SceneDelegate.swift in Sources */,
 			);

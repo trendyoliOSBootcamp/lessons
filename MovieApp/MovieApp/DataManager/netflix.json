@@ -1,0 +1,197 @@
+[
+    {
+        "id": 1,
+        "type": "highlighted",
+        "title": "HighLighted",
+        "subtitle": "bbbbb",
+        "items": [
+            {
+                "id": 1,
+                "tagline": "Featured",
+                "title": "Strokey",
+                "description": "You'll never stroke the same way again.",
+                "headerImage": "Heading1",
+                "thumbnail": ""
+            },
+            {
+                "id": 2,
+                "tagline": "Featured",
+                "title": "Kerim",
+                "description": "You'll never stroke the same way again.",
+                "headerImage": "knock_down",
+                "thumbnail": ""
+            },
+            {
+                "id": 3,
+                "tagline": "Featured",
+                "title": "Film 3",
+                "description": "You'll never stroke the same way again.",
+                "headerImage": "michelle_wolf",
+                "thumbnail": ""
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "type": "recommendation",
+        "title": "Recommandation",
+        "subtitle": "These apps are easy on the eyes",
+        "items": [
+            {
+                "id": 4,
+                "tagline": "Featured",
+                "title": "Strokey Strokey Strokey Strokey",
+                "description": "You'll never stroke the same way again.",
+                "headerImage": "Heading1",
+                "thumbnail": "hobbit"
+            },
+            {
+                "id": 5,
+                "tagline": "Featured",
+                "title": "Strokey",
+                "description": "You'll never stroke the same way again.",
+                "headerImage": "Heading1",
+                "thumbnail": "avatarjq"
+            },
+            {
+                "id": 6,
+                "tagline": "Featured",
+                "title": "Strokey",
+                "description": "You'll never stroke the same way again.",
+                "headerImage": "Heading1",
+                "thumbnail": "hobbit"
+            },
+            {
+                "id": 7,
+                "tagline": "Featured",
+                "title": "Strokey",
+                "description": "You'll never stroke the same way again.",
+                "headerImage": "Heading1",
+                "thumbnail": "hobbit"
+            },
+            {
+                "id": 8,
+                "tagline": "Featured",
+                "title": "Strokey",
+                "description": "You'll never stroke the same way again.",
+                "headerImage": "Heading1",
+                "thumbnail": "avatarjq"
+            },
+            {
+                "id": 9,
+                "tagline": "Featured",
+                "title": "Strokey",
+                "description": "You'll never stroke the same way again.",
+                "headerImage": "Heading1",
+                "thumbnail": "hobbit"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "type": "preview",
+        "title": "Preview",
+        "subtitle": "",
+        "items": [
+            {
+                "id": 10,
+                "tagline": "Featured",
+                "title": "Strokey",
+                "description": "You'll never stroke the same way again.",
+                "headerImage": "Heading1",
+                "thumbnail": "fright-night-columbia-pictures-everett-122315"
+            },
+            {
+                "id": 11,
+                "tagline": "Featured",
+                "title": "Strokey",
+                "description": "You'll never stroke the same way again.",
+                "headerImage": "Heading1",
+                "thumbnail": "hobbit"
+            },
+            {
+                "id": 12,
+                "tagline": "Featured",
+                "title": "Strokey",
+                "description": "You'll never stroke the same way again.",
+                "headerImage": "Heading1",
+                "thumbnail": "avatarjq"
+            },
+            {
+                "id": 13,
+                "tagline": "Featured",
+                "title": "Strokey",
+                "description": "You'll never stroke the same way again.",
+                "headerImage": "Heading1",
+                "thumbnail": "How_to_Train_Your_Dragon_DVD_Cover"
+            },
+            {
+                "id": 14,
+                "tagline": "Featured",
+                "title": "Strokey",
+                "description": "You'll never stroke the same way again.",
+                "headerImage": "Heading1",
+                "thumbnail": "Harry-Potter-and-the-Chamber-of-Secrets"
+            },
+            {
+                "id": 15,
+                "tagline": "Featured",
+                "title": "Strokey",
+                "description": "You'll never stroke the same way again.",
+                "headerImage": "Heading1",
+                "thumbnail": "hobbit"
+            }
+            
+        ]
+    },
+    {
+        "id": 4,
+        "type": "recommendation",
+        "title": "Recommandation",
+        "subtitle": "",
+        "items": [
+            {
+                "id": 5,
+                "tagline": "Featured",
+                "title": "Strokey",
+                "description": "You'll never stroke the same way again.",
+                "headerImage": "Heading1",
+                "thumbnail": ""
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "type": "recommendation",
+        "title": "Recommandation",
+        "subtitle": "",
+        "items": [
+            {
+                "id": 6,
+                "tagline": "Featured",
+                "title": "Strokey",
+                "description": "You'll never stroke the same way again.",
+                "headerImage": "Heading1",
+                "thumbnail": ""
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "type": "highlighted",
+        "title": "Highlighted",
+        "subtitle": "",
+        "items": [
+            {
+                "id": 7,
+                "tagline": "Featured",
+                "title": "Strokey",
+                "description": "You'll never stroke the same way again.",
+                "headerImage": "Heading1",
+                "thumbnail": ""
+            }
+        ]
+    }
+]
+
+

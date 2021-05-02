@@ -9,10 +9,10 @@ import UIKit
 
 class HighLightCell: UICollectionViewCell, MovieCell {
   
-    static let reuseIdentifier = String(describing: HighLightCell.self)
+    static let reuseIdentifier = "HighLightCell"
     @IBOutlet weak var highlightImage: UIImageView!
     
-    func showMovie(movie: Movie?) {
-        highlightImage.image = movie?.headerImage
+    func configure(movie: Movie?) {
+        highlightImage.image = UIImage(named: movie?.headerImage ?? "")
     }
 }

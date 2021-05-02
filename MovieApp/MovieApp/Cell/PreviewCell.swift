@@ -8,13 +8,13 @@
 import UIKit
 
 class PreviewCell: UICollectionViewCell, MovieCell {
-    static let reuseIdentifier = String(describing: PreviewCell.self)
+    static let reuseIdentifier = "PreviewCell"
     @IBOutlet weak var previewImage: UIImageView!
     @IBOutlet weak var title: UILabel!
     
     var isGradient = false
     
-    func showMovie(movie: Movie?) {
+    func configure(movie: Movie?) {
         
         previewImage.makeRounded(borderColor: UIColor.gray.cgColor)
         
@@ -23,7 +23,7 @@ class PreviewCell: UICollectionViewCell, MovieCell {
             previewImage.addGradient()
         }
         
-        previewImage.image = movie?.thumbnail
+        previewImage.image = UIImage(named: movie?.thumbnail ?? "")
         title.text = movie?.title
     }
 }

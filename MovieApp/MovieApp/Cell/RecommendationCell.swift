@@ -8,12 +8,12 @@
 import UIKit
 
 class RecommendationCell: UICollectionViewCell, MovieCell {
-    static let reuseIdentifier = String(describing: RecommendationCell.self)
+    static let reuseIdentifier = "RecommendationCell"
     
     @IBOutlet weak var recommendationImage: UIImageView!
     
-    func showMovie(movie: Movie?) {
-        recommendationImage.image = movie?.thumbnail
+    func configure(movie: Movie?) {
+        recommendationImage.image = UIImage(named: movie?.thumbnail ?? "")
     }
     
 }
