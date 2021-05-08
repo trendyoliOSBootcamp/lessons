@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71C15D8D264690F9007E341E /* TYKodluyoruzPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C15D83264690F9007E341E /* TYKodluyoruzPod.framework */; };
+		71C15D92264690F9007E341E /* TYKodluyoruzPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C15D91264690F9007E341E /* TYKodluyoruzPodTests.swift */; };
+		71C15D94264690F9007E341E /* TYKodluyoruzPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 71C15D86264690F9007E341E /* TYKodluyoruzPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71C15DA626469152007E341E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C15DA526469152007E341E /* AppDelegate.swift */; };
+		71C15DA826469152007E341E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C15DA726469152007E341E /* SceneDelegate.swift */; };
+		71C15DAA26469152007E341E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C15DA926469152007E341E /* ViewController.swift */; };
+		71C15DAD26469152007E341E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C15DAB26469152007E341E /* Main.storyboard */; };
+		71C15DAF26469154007E341E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C15DAE26469154007E341E /* Assets.xcassets */; };
+		71C15DB226469154007E341E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C15DB026469154007E341E /* LaunchScreen.storyboard */; };
+		71C15DBB26469266007E341E /* TYKodluyoruzPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C15DBA26469266007E341E /* TYKodluyoruzPod.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71C15D8E264690F9007E341E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71C15D7A264690F9007E341E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71C15D82264690F9007E341E;
+			remoteInfo = TYKodluyoruzPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71C15D83264690F9007E341E /* TYKodluyoruzPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TYKodluyoruzPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C15D86264690F9007E341E /* TYKodluyoruzPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYKodluyoruzPod.h; sourceTree = "<group>"; };
+		71C15D87264690F9007E341E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C15D8C264690F9007E341E /* TYKodluyoruzPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYKodluyoruzPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C15D91264690F9007E341E /* TYKodluyoruzPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYKodluyoruzPodTests.swift; sourceTree = "<group>"; };
+		71C15D93264690F9007E341E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C15DA326469152007E341E /* TYKodluyoruzPodExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYKodluyoruzPodExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C15DA526469152007E341E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71C15DA726469152007E341E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		71C15DA926469152007E341E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71C15DAC26469152007E341E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71C15DAE26469154007E341E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71C15DB126469154007E341E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71C15DB326469154007E341E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C15DBA26469266007E341E /* TYKodluyoruzPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYKodluyoruzPod.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71C15D80264690F9007E341E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C15D89264690F9007E341E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C15D8D264690F9007E341E /* TYKodluyoruzPod.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C15DA026469152007E341E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71C15D79264690F9007E341E = {
+			isa = PBXGroup;
+			children = (
+				71C15D85264690F9007E341E /* TYKodluyoruzPod */,
+				71C15D90264690F9007E341E /* TYKodluyoruzPodTests */,
+				71C15DA426469152007E341E /* TYKodluyoruzPodExamples */,
+				71C15D84264690F9007E341E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71C15D84264690F9007E341E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71C15D83264690F9007E341E /* TYKodluyoruzPod.framework */,
+				71C15D8C264690F9007E341E /* TYKodluyoruzPodTests.xctest */,
+				71C15DA326469152007E341E /* TYKodluyoruzPodExamples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71C15D85264690F9007E341E /* TYKodluyoruzPod */ = {
+			isa = PBXGroup;
+			children = (
+				71C15D86264690F9007E341E /* TYKodluyoruzPod.h */,
+				71C15D87264690F9007E341E /* Info.plist */,
+				71C15DBA26469266007E341E /* TYKodluyoruzPod.swift */,
+			);
+			path = TYKodluyoruzPod;
+			sourceTree = "<group>";
+		};
+		71C15D90264690F9007E341E /* TYKodluyoruzPodTests */ = {
+			isa = PBXGroup;
+			children = (
+				71C15D91264690F9007E341E /* TYKodluyoruzPodTests.swift */,
+				71C15D93264690F9007E341E /* Info.plist */,
+			);
+			path = TYKodluyoruzPodTests;
+			sourceTree = "<group>";
+		};
+		71C15DA426469152007E341E /* TYKodluyoruzPodExamples */ = {
+			isa = PBXGroup;
+			children = (
+				71C15DA526469152007E341E /* AppDelegate.swift */,
+				71C15DA726469152007E341E /* SceneDelegate.swift */,
+				71C15DA926469152007E341E /* ViewController.swift */,
+				71C15DAB26469152007E341E /* Main.storyboard */,
+				71C15DAE26469154007E341E /* Assets.xcassets */,
+				71C15DB026469154007E341E /* LaunchScreen.storyboard */,
+				71C15DB326469154007E341E /* Info.plist */,
+			);
+			path = TYKodluyoruzPodExamples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		71C15D7E264690F9007E341E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C15D94264690F9007E341E /* TYKodluyoruzPod.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		71C15D82264690F9007E341E /* TYKodluyoruzPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71C15D97264690F9007E341E /* Build configuration list for PBXNativeTarget "TYKodluyoruzPod" */;
+			buildPhases = (
+				71C15D7E264690F9007E341E /* Headers */,
+				71C15D7F264690F9007E341E /* Sources */,
+				71C15D80264690F9007E341E /* Frameworks */,
+				71C15D81264690F9007E341E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYKodluyoruzPod;
+			productName = TYKodluyoruzPod;
+			productReference = 71C15D83264690F9007E341E /* TYKodluyoruzPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		71C15D8B264690F9007E341E /* TYKodluyoruzPodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71C15D9A264690F9007E341E /* Build configuration list for PBXNativeTarget "TYKodluyoruzPodTests" */;
+			buildPhases = (
+				71C15D88264690F9007E341E /* Sources */,
+				71C15D89264690F9007E341E /* Frameworks */,
+				71C15D8A264690F9007E341E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71C15D8F264690F9007E341E /* PBXTargetDependency */,
+			);
+			name = TYKodluyoruzPodTests;
+			productName = TYKodluyoruzPodTests;
+			productReference = 71C15D8C264690F9007E341E /* TYKodluyoruzPodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71C15DA226469152007E341E /* TYKodluyoruzPodExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71C15DB426469154007E341E /* Build configuration list for PBXNativeTarget "TYKodluyoruzPodExamples" */;
+			buildPhases = (
+				71C15D9F26469152007E341E /* Sources */,
+				71C15DA026469152007E341E /* Frameworks */,
+				71C15DA126469152007E341E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYKodluyoruzPodExamples;
+			productName = TYKodluyoruzPodExamples;
+			productReference = 71C15DA326469152007E341E /* TYKodluyoruzPodExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71C15D7A264690F9007E341E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					71C15D82264690F9007E341E = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+					71C15D8B264690F9007E341E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					71C15DA226469152007E341E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 71C15D7D264690F9007E341E /* Build configuration list for PBXProject "TYKodluyoruzPod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71C15D79264690F9007E341E;
+			productRefGroup = 71C15D84264690F9007E341E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71C15D82264690F9007E341E /* TYKodluyoruzPod */,
+				71C15D8B264690F9007E341E /* TYKodluyoruzPodTests */,
+				71C15DA226469152007E341E /* TYKodluyoruzPodExamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71C15D81264690F9007E341E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C15D8A264690F9007E341E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C15DA126469152007E341E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C15DB226469154007E341E /* LaunchScreen.storyboard in Resources */,
+				71C15DAF26469154007E341E /* Assets.xcassets in Resources */,
+				71C15DAD26469152007E341E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71C15D7F264690F9007E341E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C15DBB26469266007E341E /* TYKodluyoruzPod.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C15D88264690F9007E341E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C15D92264690F9007E341E /* TYKodluyoruzPodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C15D9F26469152007E341E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C15DAA26469152007E341E /* ViewController.swift in Sources */,
+				71C15DA626469152007E341E /* AppDelegate.swift in Sources */,
+				71C15DA826469152007E341E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71C15D8F264690F9007E341E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71C15D82264690F9007E341E /* TYKodluyoruzPod */;
+			targetProxy = 71C15D8E264690F9007E341E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71C15DAB26469152007E341E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71C15DAC26469152007E341E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71C15DB026469154007E341E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71C15DB126469154007E341E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71C15D95264690F9007E341E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71C15D96264690F9007E341E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71C15D98264690F9007E341E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M2ZVLTD873;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TYKodluyoruzPod/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerimcaglar.TYKodluyoruzPod;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71C15D99264690F9007E341E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M2ZVLTD873;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TYKodluyoruzPod/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerimcaglar.TYKodluyoruzPod;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71C15D9B264690F9007E341E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M2ZVLTD873;
+				INFOPLIST_FILE = TYKodluyoruzPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerimcaglar.TYKodluyoruzPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71C15D9C264690F9007E341E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M2ZVLTD873;
+				INFOPLIST_FILE = TYKodluyoruzPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerimcaglar.TYKodluyoruzPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71C15DB526469154007E341E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M2ZVLTD873;
+				INFOPLIST_FILE = TYKodluyoruzPodExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerimcaglar.TYKodluyoruzPodExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71C15DB626469154007E341E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M2ZVLTD873;
+				INFOPLIST_FILE = TYKodluyoruzPodExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerimcaglar.TYKodluyoruzPodExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71C15D7D264690F9007E341E /* Build configuration list for PBXProject "TYKodluyoruzPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C15D95264690F9007E341E /* Debug */,
+				71C15D96264690F9007E341E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71C15D97264690F9007E341E /* Build configuration list for PBXNativeTarget "TYKodluyoruzPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C15D98264690F9007E341E /* Debug */,
+				71C15D99264690F9007E341E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71C15D9A264690F9007E341E /* Build configuration list for PBXNativeTarget "TYKodluyoruzPodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C15D9B264690F9007E341E /* Debug */,
+				71C15D9C264690F9007E341E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71C15DB426469154007E341E /* Build configuration list for PBXNativeTarget "TYKodluyoruzPodExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C15DB526469154007E341E /* Debug */,
+				71C15DB626469154007E341E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71C15D7A264690F9007E341E /* Project object */;
+}

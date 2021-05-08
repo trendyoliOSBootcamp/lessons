@@ -1,0 +1,6 @@
+language: objective-c
+osx_image: xcode12.5
+xcode_workspace: TYKodluyoruzPod.xcworkspace
+xcode_scheme: TYKodluyoruzPod
+xcode_destination: platform=iOS Simulator,OS=14.5,name=iPhone X
+
