@@ -12,8 +12,8 @@ extension UIImageView {
     func makeRounded(borderColor: CGColor? = nil, borderWidth: CGFloat = 2) {
         layer.borderWidth = borderWidth
         layer.borderColor = borderColor
-        layer.cornerRadius = frame.height / 2 //???
-        //???
+        layer.cornerRadius = frame.height / 2.3 //???
+        clipsToBounds = true
     }
     
     func addGradient(startColor: CGColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.1).cgColor,
